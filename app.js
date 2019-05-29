@@ -101,23 +101,23 @@ function sauron() {
 // remove with a timer
 function win() {
   comp_label_div.classList.add('lose-label'); 
-  setTimeout(() => comp_label_div.classList.remove('lose-label'), 900); 
+  setTimeout(() => comp_label_div.classList.remove('lose-label'), 1000); 
   user_label_div.classList.add('win-label'); 
-  setTimeout(() => user_label_div.classList.remove('win-label'), 900); 
+  setTimeout(() => user_label_div.classList.remove('win-label'), 1000); 
 }
 
 function lose() {
   user_label_div.classList.add('lose-label'); 
-    setTimeout(() => user_label_div.classList.remove('lose-label'), 900); 
+    setTimeout(() => user_label_div.classList.remove('lose-label'), 1000); 
     comp_label_div.classList.add('win-label'); 
-    setTimeout(() => comp_label_div.classList.remove('win-label'), 900); 
+    setTimeout(() => comp_label_div.classList.remove('win-label'), 1000); 
 }
 
 function tie(){ 
   comp_label_div.classList.add('tie-label'); 
-  setTimeout(() => comp_label_div.classList.remove('tie-label'), 900); 
+  setTimeout(() => comp_label_div.classList.remove('tie-label'), 1000); 
   user_label_div.classList.add('tie-label'); 
-  setTimeout(() => user_label_div.classList.remove('tie-label'), 900);
+  setTimeout(() => user_label_div.classList.remove('tie-label'), 1000);
 }
 
 
