@@ -5,7 +5,8 @@ var choices = document.getElementsByClassName("choice");
 var userScore_span = document.getElementById("user-score"); 
 var compScore_span = document.getElementById("comp-score"); 
 var user_label_div = document.getElementById("user"); 
-var comp_label_div = document.getElementById("comp"); 
+var comp_label_div = document.getElementById("comp");
+// var reset_button = document.getElementsByClassName("reset");  
 
 
 
@@ -119,6 +120,17 @@ function tie(){
   user_label_div.classList.add('tie-label'); 
   setTimeout(() => user_label_div.classList.remove('tie-label'), 1000);
 }
+
+// function resetButton() {
+//   reset_button.addEventListener("click", resetGame()); 
+// }
+
+// function resetGame() {
+//   userScore = 0; 
+//   compScore = 0; 
+//   userScore_span.innerHTML = userScore; 
+//   compScore_span.innerHTML = compScore; 
+// }
 
 
 

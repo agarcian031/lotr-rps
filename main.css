@@ -209,7 +209,14 @@ footer {
 footer > p { 
   text-align: center; 
   font-weight: bold;
-  /* margin: 10 auto;   */
+  margin: 0 auto;  
   padding: 15px; 
   opacity: 0.5; 
 }
+/* footer > button { 
+  text-align: center; 
+  font-weight: bold;
+  margin: 0 auto;  
+  padding: 15px; 
+  opacity: 0.5; 
+} */
